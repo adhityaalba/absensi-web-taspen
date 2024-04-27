@@ -1,0 +1,34 @@
+GET http://localhost:8000/users
+
+###
+
+GET http://localhost:8000/users/1
+
+###
+
+POST http://localhost:8000/users
+Content-Type:application/json
+
+{
+    "name" : "Adhit",
+    "email" : "adhitayaasdsadasdsa@gmail.com",
+    "gender" : "laki"
+
+}
+
+###
+
+PATCH  http://localhost:8000/users/1
+Content-Type: application/json
+
+{
+    "name" : "Adhit Update",
+    "email" : "adhitayupdatea@gmail.com",
+    "gender" : "laki"
+
+}
+
+
+###
+DELETE  http://localhost:8000/users/6
+ 
